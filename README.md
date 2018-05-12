@@ -21,3 +21,7 @@ Now click on "OK" button, and then you will see below two highlighted interfaces
 ## Generate Test Suite from interface in SoapUI:
 Now right click on "PhoneVerfiySoap12" interface and click on "Generate TestSuite" option as per below diagram. it will generate a TestSuite with test cases for all operations which were selected while generating TestSuite.
 ![alt text](screenshots/4.png "Generated Project")
+
+## Run a Test Case while passing data into request:
+Now run a simple request and make sure that it gets some response back by passing some phone number into "PhoneNumber" tag in request as per below, <quer:PhoneNumber><8888888888/quer:PhoneNumber> Then Submit request by clicking green play button which is located on left corner of request. Then you should see some response back from passing appropriate request data.
+![alt text](screenshots/5.png "Generated Project")
