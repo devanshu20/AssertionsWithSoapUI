@@ -14,3 +14,6 @@ once it is downloaded then install it with default settings.
 Open SoapUI and and go to File > New SOAP Project and enter below wsdl url in "initial WSDL:" field, it will automatically fill "Project Name"
 http://ws.cdyne.com/phoneverify/phoneverify.asmx
 ![alt text](screenshots/2.png "Create New Project")
+Now click on "OK" button, and then you will see below two highlighted interfaces are generated automatically which are ready to consume for validation and assertions.
+
+![alt text](screenshots/3.png "Generated Project")
