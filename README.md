@@ -13,3 +13,4 @@ once it is downloaded then install it with default settings.
 ## Create project in SoapUI:
 Open SoapUI and and go to File > New SOAP Project and enter below wsdl url in "initial WSDL:" field, it will automatically fill "Project Name"
 http://ws.cdyne.com/phoneverify/phoneverify.asmx
+![alt text](screenshots/2.png "Create New Project")
