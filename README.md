@@ -53,3 +53,5 @@ Now after adding all different assertions, if you try to run the SoapUI project,
 
 ![alt text](screenshots/9.png)
 
+Please have a look at the attached entire project "phoneverify-soapui-project.xml" for more information. 
+
