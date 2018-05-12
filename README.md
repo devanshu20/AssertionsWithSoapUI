@@ -24,4 +24,14 @@ Now right click on "PhoneVerfiySoap12" interface and click on "Generate TestSuit
 
 ## Run a Test Case while passing data into request:
 Now run a simple request and make sure that it gets some response back by passing some phone number into "PhoneNumber" tag in request as per below, <quer:PhoneNumber><8888888888/quer:PhoneNumber> Then Submit request by clicking green play button which is located on left corner of request. Then you should see some response back from passing appropriate request data.
-![alt text](screenshots/5.png "Generated Project")
+![alt text](screenshots/5.png)
+
+## Add Assertions to validate Resonse:
+Now we can add assertions to make sure that response we got is as per expected. SoapUI equipped with already defined assertions which are easy to configured and integrate within Testcases. We will add few assertions in our SoapUI test and see how we can see them getting passed as we executes the tests.
+Below assertions are inbuilt and can be used directly within test cases:
+
+1.	Not SOAP Fault: This assertion validates that the last received message is not a SOAP fault.
+2.	Schema Compliance: This assertion validates that the last received message is compliant with the associated WSDL or WADL schema defintion.
+3.	Sensitive Information Exposure: Checks that the last received message does not expose an sensitive information about the target system. Applicable to REST, SOAP and HTTP TestSteps.
+Add above all assertions by going into assertions(0) tab lower bottom in SoapUI request window and then clicking on "+" symbol, on upper left corner of Request window, that will open the seperate dialog window which will have all available assertions.
+![alt text](screenshots/6.png)
