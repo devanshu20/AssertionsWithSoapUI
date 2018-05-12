@@ -34,4 +34,5 @@ Below assertions are inbuilt and can be used directly within test cases:
 2.	Schema Compliance: This assertion validates that the last received message is compliant with the associated WSDL or WADL schema defintion.
 3.	Sensitive Information Exposure: Checks that the last received message does not expose an sensitive information about the target system. Applicable to REST, SOAP and HTTP TestSteps.
 Add above all assertions by going into assertions(0) tab lower bottom in SoapUI request window and then clicking on "+" symbol, on upper left corner of Request window, that will open the seperate dialog window which will have all available assertions.
+
 ![alt text](screenshots/6.png)
