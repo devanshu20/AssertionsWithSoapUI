@@ -48,4 +48,6 @@ Now add XPath assertion, by going into "Property Content" section of Assertions 
 
 ![alt text](screenshots/8.png)
 
+## Review of Execution results:
+Now after adding all different assertions, if you try to run the SoapUI project, then all assertions should get passed with GREEN execution and now request is ready to use for Web service automation validation.
 
