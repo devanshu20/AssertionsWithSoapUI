@@ -18,3 +18,6 @@ http://ws.cdyne.com/phoneverify/phoneverify.asmx
 Now click on "OK" button, and then you will see below two highlighted interfaces are generated automatically which are ready to consume for validation and assertions.
 
 ![alt text](screenshots/3.png "Generated Project")
+## Generate Test Suite from interface in SoapUI:
+Now right click on "PhoneVerfiySoap12" interface and click on "Generate TestSuite" option as per below diagram. it will generate a TestSuite with test cases for all operations which were selected while generating TestSuite.
+![alt text](screenshots/4.png "Generated Project")
