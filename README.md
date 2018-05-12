@@ -4,3 +4,12 @@ Now we are in world of micro-services where everything is gets connected with di
 ## Let&#39;s start with What is Web Service or API?
 As per below diagram, Web services are loosely-coupled containers of application functionality. Web Services allow applications to communicate directly with each other. As per below diagram you can see that there is SERVICE REQUESTOR who sends the request and there is SERVICE PROVIDER who accepts the request, process it as per defined rules and provide back processed response toSERVICE REQUESTOR.Web services allow applications to exchange data, and it communicates primarily XML based markup language.
 ![alt text](screenshots/1.png "Web-Services Architecture")
+
+## Tools used:
+## SoapUI - Open source 
+SoapUI is most common and popular web service tool in the industry, it provides GUI to test functionalities that does not have GUI interface. Open Source version is good for automation validation but need Pro version to get more versatility and simplicity to get automation faster. it can be downloaded from below URL.
+https://www.soapui.org/downloads/soapui.html
+once it is downloaded then install it with default settings.
+## Create project in SoapUI:
+Open SoapUI and and go to File > New SOAP Project and enter below wsdl url in "initial WSDL:" field, it will automatically fill "Project Name"
+http://ws.cdyne.com/phoneverify/phoneverify.asmx
