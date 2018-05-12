@@ -36,3 +36,16 @@ Below assertions are inbuilt and can be used directly within test cases:
 Add above all assertions by going into assertions(0) tab lower bottom in SoapUI request window and then clicking on "+" symbol, on upper left corner of Request window, that will open the seperate dialog window which will have all available assertions.
 
 ![alt text](screenshots/6.png)
+Now add Response SLA assertion by going into "SLA" section of Assertions dialog box as per above figure.
+4.	Response SLA: This assertion validates that the last received response time was within the defined limit.
+
+Now add contain assertion, by going into "Property Content" section of Assertions dialog box as per below figure. and add the what the response should contain when it runs the request run time. like in this example it should contains 'true' as per below.
+5.	Contains: This assertion searches for the existence of a string token in the property value,  supports regular expression.
+
+![alt text](screenshots/7.png)
+Now add XPath assertion, by going into "Property Content" section of Assertions dialog box as per below figure, XPath is very useful assertion while validating XML, to add it properly - First click on "Declare" button which will automatically generates namespace for soap and interface. now write the specific XPath of the XML tag which you would like to validate. As per example, we wanted to validate that in response Original Number  should come as "8888888888" which we have passed in Request previously.
+6.	XPath: This assertion uses the XPath expression to select content from the target property and compares the result to an expected value. Applicable to any property containing XML.
+
+![alt text](screenshots/8.png)
+
+
